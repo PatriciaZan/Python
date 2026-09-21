@@ -1,7 +1,7 @@
 
 from parser import load_gpx
 
-data = load_gpx("data/activity.gpx")
+load_gpx("data/Morning_Ride.gpx")
 
-print(data[:5])
+
 

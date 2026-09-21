@@ -9,10 +9,6 @@ venv/
 env/
 ENV/
 
-.env
-/env
-env
-
 # PyCharm / JetBrains configurations
 .idea/
 *.iml
