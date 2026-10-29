@@ -1,0 +1,85 @@
+### PyCharm / IntelliJ Web IDE ###
+# Log files, diagnostics, and local history
+.idea
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionary.xml
+.idea/sonarlint/
+
+# Crashlytics plugin (if used)
+.idea/crashlytics.xml
+
+# Strictly local build / tool outputs
+cmake-build-*/
+out/
+
+# IMPORTANT: Do NOT ignore the entire .idea/ directory if you want to
+# share project code style, run configurations, and SQL dialects with your team.
+# However, if you are a solo developer or prefer a clean repo, uncomment the next line:
+# .idea/
+
+### Python Specific ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging artifacts
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.typecheck/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+### Environments and Secrets ###
+# Virtual environments (adjust names if you use custom ones)
+.venv/
+venv/
+ENV/
+env/
+
+# Sensitive configuration files (Never commit these!)
+.env
+.secrets
+local_settings.py
